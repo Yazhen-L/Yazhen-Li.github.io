@@ -1,12 +1,38 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: B
+description: XXX
 importance: 2
-category: work
-giscus_comments: true
+category: projects
 ---
+
+## Overview
+
+XXX
+
+## My Contribution
+
+- XXX
+- XXX
+- XXX
+- XXX
+
+## Results
+
+XXX
+
+<div class="links">
+  <a href="/assets/pdf/ambiguity-report.pdf" class="btn btn-sm z-depth-0">
+    Report
+  </a>
+
+  <a href="https://github.com/your-collaborator/project-name"
+     class="btn btn-sm z-depth-0">
+    Code
+  </a>
+</div>
+
+```
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
@@ -78,4 +104,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+# {% endraw %}
