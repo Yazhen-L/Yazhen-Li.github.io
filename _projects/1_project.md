@@ -32,6 +32,7 @@ XXX
   </a>
 </div>
 
+```
     ---
     layout: page
     title: project
@@ -96,4 +97,5 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+# {% endraw %}
+
