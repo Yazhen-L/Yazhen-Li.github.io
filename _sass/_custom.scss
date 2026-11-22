@@ -1,4 +1,26 @@
 html,
-body {
+body,
+.navbar,
+.navbar-brand,
+.nav-link,
+body .post,
+body .post p,
+body .post li,
+body .post h1,
+body .post h2,
+body .post h3,
+body .post h4,
+body .post h5,
+body .post h6,
+body .post .clearfix,
+body .post .more-info {
   font-family: "Times New Roman", Times, serif !important;
+}
+
+html {
+  font-size: 18px !important;
+}
+
+body {
+  font-size: 1rem !important;
 }
