@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Computer Science and Data Science student in New York University
+subtitle: ""
 
 profile:
   align: left
@@ -26,6 +26,44 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+<style>
+.post-header {
+  display: none;
+}
+
+.profile.float-left {
+  margin-right: 48px !important;
+}
+
+.profile .more-info {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+.home-name {
+  margin-top: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+
+.home-subtitle {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.15rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .profile.float-left {
+    float: none !important;
+    margin-right: 0 !important;
+  }
+}
+</style>
+
+<h1 class="home-name">Yazhen Li</h1>
+
+<p class="home-subtitle">
+Computer Science and Data Science student at New York University
+</p>
 
 I am an undergraduate student at NYU CAS studying Computer Science and Data Science.
 
