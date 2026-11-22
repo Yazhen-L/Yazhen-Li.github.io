@@ -7,25 +7,26 @@ subtitle: ""
 profile:
   align: left
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
     <p>New York University</p>
     <p>College of Arts and Science</p>
     <p>New York, NY</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
+
 <style>
 .post-header {
   display: none;
@@ -37,18 +38,42 @@ latest_posts:
 
 .profile .more-info {
   font-family: "Times New Roman", Times, serif !important;
+  font-size: 1rem !important;
+}
+
+body,
+body .post,
+body .post p,
+body .post li,
+body .post h1,
+body .post h2,
+body .post h3,
+body .post h4,
+body .post h5,
+body .post h6,
+body .post .clearfix,
+body .post .more-info {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+body .post {
+  font-size: 18px !important;
 }
 
 .home-name {
   margin-top: 0;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif !important;
   font-size: 2rem;
 }
 
 .home-subtitle {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif !important;
   font-size: 1.15rem;
   margin-bottom: 1.5rem;
+}
+
+.contact-divider {
+  margin: 2.5rem 0 1.5rem;
 }
 
 @media (max-width: 768px) {
@@ -65,8 +90,20 @@ latest_posts:
 Computer Science and Data Science student at New York University
 </p>
 
+<p>
 I am an undergraduate student at NYU CAS studying Computer Science and Data Science.
+</p>
 
+<p>
 My interests include large language models, AI infrastructure, natural language processing, and ambiguity clarification in open-domain question answering.
+</p>
 
+<p>
 I am currently working on research projects involving language models and AI systems.
+</p>
+
+<hr class="contact-divider">
+
+<h2>Contact</h2>
+
+<p>Email:</p>
