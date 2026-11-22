@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://YazhenLi.github.io/sitemap.xml
+Sitemap: https://Yazhen-Li.github.io/sitemap.xml
