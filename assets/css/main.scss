@@ -1,26 +1,32 @@
----
----
+html {
+  font-size: 18px !important;
+}
 
-@charset "utf-8";
+html,
+body {
+  font-family: "Times New Roman", Times, serif !important;
+}
 
-@use "sass:math";
-@use "sass:string";
+body {
+  font-size: 1rem !important;
+}
 
-@use "variables" with (
-  $max-content-width: {{ site.max_width | default: "930px" }}
-);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+.navbar,
+.nav-link,
+.post,
+.post-header,
+.profile .more-info {
+  font-family: "Times New Roman", Times, serif !important;
+}
 
-@use "themes";
-@use "layout";
-@use "typography";
-@use "navbar";
-@use "footer";
-@use "blog";
-@use "publications";
-@use "components";
-@use "utilities";
-@use "tabs";
-@use "teachings";
-@use "typograms";
-
-@use "custom";
+.profile .more-info {
+  font-size: 1rem !important;
+}
