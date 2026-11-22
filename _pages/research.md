@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research Experience
+title: Research
 permalink: /research/
 nav: true
 nav_order: 1
@@ -12,18 +12,18 @@ nav_order: 1
 
 I study how language models can identify and clarify ambiguity in open-domain questions.
 
-My work focuses on detecting questions with missing semantic dimensions and organizing different types of ambiguity into a structured taxonomy.
+Many questions appear simple but leave important dimensions unspecified, such as time, location, target entity, or interpretation. My work focuses on identifying these missing dimensions and organizing different types of ambiguity into a structured taxonomy.
 
-**Role:** Research assistant  
+**Role:** Research Assistant  
 **Topics:** Large language models, ambiguity clarification, open-domain question answering  
 **Status:** Ongoing
 
-## Current Research
+### [Research Project Title]
 
-### Project Title
-
-Write a short description of the research problem, your contribution, methods, and results here.
+Write a short explanation of the research question, the motivation, your role, methods, and main findings.
 
 **Role:**  
+**Advisor or Lab:**  
 **Methods:**  
 **Results:**  
+**Status:** Completed or Ongoing
