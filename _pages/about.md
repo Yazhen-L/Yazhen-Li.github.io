@@ -33,7 +33,7 @@ latest_posts:
 }
 
 .profile.float-left {
-  margin-right: 90px !important;
+  margin-right: 150px !important;
 }
 
 .profile .more-info {
