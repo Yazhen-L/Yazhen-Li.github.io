@@ -6,6 +6,25 @@ importance: 1
 category: projects
 ---
 
+<style>
+body .post,
+body .post *,
+body .post-header,
+body .post-header *,
+body .post-title,
+body .navbar-brand,
+body .nav-link,
+body footer,
+body footer * {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+body .post {
+  font-size: 18px !important;
+}
+</style>
+
+
 ## Overview
 
 XXX
