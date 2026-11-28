@@ -51,13 +51,29 @@ body .post li {
 
 
 
+## [Research Project Title]
+
+Write a short explanation of the research question, the motivation, your role, methods, and main findings.
+
+**Role:**  
+**Advisor or Lab:**  
+**Methods:**  
+**Results:**  
+**Status:** Completed or Ongoing
+
+<hr class="research-divider">
+
 ## Temperature Measurement, Index Construction, and Electricity-Market Risk in ERCOT
 
 **Role:** Researcher<br>
+**Period:** October 2025 – Present<br>
 **Affiliation:** [RiskEcon<sup>®</sup> Lab at NYU](https://wp.nyu.edu/riskeconlab/)<br>
 **Advisors:** [Dr. David K. A. Mordecai](https://riskeconomicsinc.com/david-k-a-mordecai/), [Dr. Gabriel Provencher Langlois](https://gabrielpl.com/), and [Dr. Christoph Graf](https://policyintegrity.org/about/bio/christoph-graf)<br>
-**Status:** In progress
+**Status:** In progress - I am currently working under the guidance of my advisors toward co-authoring research papers.
 
+<details markdown="1">
+<summary>View more details</summary>
+  
 ### Background
 
 Non-catastrophic weather variation can create uncertainty in cash flows and other economic payoffs by changing the quantity of underlying production or consumption. Because such quantity exposure cannot be fully hedged using price-based instruments alone, weather derivatives condition payoffs on observable weather measurements and pre-specified indices such as Heating Degree Days (HDD) and Cooling Degree Days (CDD). Choices such as the underlying temperature observations, spatial aggregation method, and index construction can have temperature-index basis risk and electricity market implications.
@@ -99,14 +115,4 @@ Future work will:
 
 - Conduct an empirical analysis, primarily co-advised by Dr. Mordecai, to estimate realized spread volatility and evaluate basis risk and hedging performance. This analysis will consider node-specific DAM–RT and TBx positions, as well as spreads across nodal baskets and seasonal strips, conditional on market-implied heat rates.
 
-<hr class="research-divider">
-
-## [Research Project Title]
-
-Write a short explanation of the research question, the motivation, your role, methods, and main findings.
-
-**Role:**  
-**Advisor or Lab:**  
-**Methods:**  
-**Results:**  
-**Status:** Completed or Ongoing
+</details>
