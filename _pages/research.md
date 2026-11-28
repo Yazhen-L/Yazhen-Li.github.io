@@ -6,6 +6,27 @@ nav: true
 nav_order: 1
 ---
 
+<style>
+/* Times New Roman for the Research page */
+body .post,
+body .post *,
+body .post-header,
+body .post-header *,
+body .post-title {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+/* Make the Research page text slightly larger */
+body .post {
+  font-size: 18px !important;
+}
+
+body .post p,
+body .post li {
+  font-size: 18px !important;
+}
+</style>
+
 ## Current Research
 
 ### Ambiguity Clarification for Open-Domain Question Answering
