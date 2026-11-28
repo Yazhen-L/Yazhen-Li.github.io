@@ -9,6 +9,30 @@ display_categories: [projects]
 horizontal: false
 ---
 
+<style>
+body .post,
+body .post *,
+body .projects,
+body .projects *,
+body .post-header,
+body .post-header *,
+body .post-title,
+body .navbar-brand,
+body .nav-link,
+body footer,
+body footer * {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+body .post {
+  font-size: 18px !important;
+}
+
+body .projects {
+  font-size: 18px !important;
+}
+</style>
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
