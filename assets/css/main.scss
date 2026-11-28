@@ -44,3 +44,16 @@ main a:not(.btn):not(.badge) {
 main a:not(.btn):not(.badge):hover {
   color: inherit !important;
 }
+
+/* Black underlined links throughout the main content */
+main a:not(.btn):not(.badge),
+main a:not(.btn):not(.badge):link,
+main a:not(.btn):not(.badge):visited,
+main a:not(.btn):not(.badge):hover,
+main a:not(.btn):not(.badge):active {
+  color: #000000 !important;
+  text-decoration-line: underline !important;
+  text-decoration-color: #000000 !important;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
