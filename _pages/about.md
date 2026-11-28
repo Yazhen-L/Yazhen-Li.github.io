@@ -29,6 +29,27 @@ latest_posts:
 
 <style>
 
+/* Widen only the Home page */
+body:has(.profile) .container {
+  max-width: 1300px !important;
+}
+
+/* Keep the profile image at exactly 300px */
+body:has(.profile) .profile,
+body:has(.profile) .profile.float-left {
+  width: 300px !important;
+  min-width: 300px !important;
+  max-width: 300px !important;
+  flex: 0 0 300px !important;
+}
+
+body:has(.profile) .profile img,
+body:has(.profile) .profile.float-left img {
+  width: 300px !important;
+  max-width: 300px !important;
+  height: auto !important;
+}
+  
 .contact-section {
   display: flow-root;
   width: 100%;
