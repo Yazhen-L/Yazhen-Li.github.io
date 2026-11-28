@@ -51,8 +51,10 @@ body:has(.profile) .profile.float-left img {
 }
   
 .contact-section {
-  display: flow-root;
-  width: 100%;
+  display: block;
+  clear: none !important;
+  margin-left: 360px;
+  width: calc(100% - 360px);
   margin-top: 2rem;
 }
 
@@ -77,7 +79,7 @@ body .navbar-brand {
 }
 
 .profile.float-left {
-  margin-right: 300px !important;
+  margin-right: 250px !important;
 }
 
 .profile .more-info {
@@ -130,20 +132,16 @@ body .post {
 
 <h1 class="home-name">Yazhen Li</h1>
 
-<p class="home-subtitle">
-Computer Science and Data Science student at New York University
+<p>
+I am an undergraduate student at New York University CAS studying Computer Science and Data Science.
 </p>
 
 <p>
-I am an undergraduate student at NYU CAS studying Computer Science and Data Science.
+My research interests lie at the intersection of reliable language models, adaptive AI systems, AI-assisted research, and data-driven modeling of complex real-world risks.
 </p>
 
 <p>
-My interests include large language models, AI infrastructure, natural language processing, and ambiguity clarification in open-domain question answering.
-</p>
-
-<p>
-I am currently working on research projects involving language models and AI systems.
+I am currently working on research on ambiguity clarification in large language models and climate–energy risk modeling using temperature and electricity-market data.
 </p>
 
 <div class="contact-section">
