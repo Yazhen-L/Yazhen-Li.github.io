@@ -31,7 +31,7 @@ latest_posts:
 
 /* Widen only the Home page */
 body:has(.profile) .container {
-  max-width: 1100px !important;
+  max-width: 1200px !important;
 }
 
 /* Keep the profile image at exactly 300px */
@@ -107,7 +107,7 @@ body .post {
 }
 
 .home-name {
-  margin-top: 0;
+  margin-top: 100px !important;
   font-family: "Times New Roman", Times, serif !important;
   font-size: 2rem;
 }
