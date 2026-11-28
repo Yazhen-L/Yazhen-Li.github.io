@@ -1,8 +1,6 @@
+/* Global font */
 html,
 body,
-.navbar,
-.navbar-brand,
-.nav-link,
 body .post,
 body .post p,
 body .post li,
@@ -12,15 +10,41 @@ body .post h3,
 body .post h4,
 body .post h5,
 body .post h6,
-body .post .clearfix,
-body .post .more-info {
+body .post-title,
+body .post-header,
+body .navbar-brand,
+body .nav-link,
+body .footer,
+body .search-overlay,
+body .search-overlay input,
+body .search-result,
+body .profile,
+body .profile .more-info {
   font-family: "Times New Roman", Times, serif !important;
 }
 
-html {
+/* Slightly larger main text */
+body .post {
   font-size: 18px !important;
 }
 
-body {
-  font-size: 1rem !important;
+/* Keep headings readable */
+body .post h1 {
+  font-size: 2.4rem !important;
+}
+
+body .post h2 {
+  font-size: 2rem !important;
+}
+
+body .post h3 {
+  font-size: 1.6rem !important;
+}
+
+/* Project cards displayed vertically */
+.projects .row > [class*="col-"] {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+  margin-bottom: 2.5rem !important;
 }
