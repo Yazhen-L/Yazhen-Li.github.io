@@ -7,6 +7,28 @@ nav_order: 1
 ---
 
 <style>
+/* Font for the top navigation bar */
+body .navbar,
+body .navbar a,
+body .navbar button,
+body .navbar-brand,
+body .navbar-nav,
+body .nav-link,
+body .navbar span:not(.fas):not(.far):not(.fab),
+body .navbar *:not(i):not(svg):not(path):not(.fas):not(.far):not(.fab) {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+/* Font for the search window */
+body #search-modal,
+body #search-modal *,
+body .search-modal,
+body .search-modal *,
+body .search-overlay,
+body .search-overlay * {
+  font-family: "Times New Roman", Times, serif !important;
+}
+  
 /* Times New Roman for the Research page */
 body .post,
 body .post *,
