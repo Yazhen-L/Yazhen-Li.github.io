@@ -31,7 +31,7 @@ latest_posts:
 
 /* Widen only the Home page */
 body:has(.profile) .container {
-  max-width: 1300px !important;
+  max-width: 1100px !important;
 }
 
 /* Keep the profile image at exactly 300px */
