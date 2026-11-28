@@ -7,6 +7,23 @@ nav_order: 1
 ---
 
 <style>
+details {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+summary {
+  cursor: pointer;
+  color: inherit !important;
+  font-family: "Times New Roman", Times, serif !important;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+summary:hover {
+  color: inherit !important;
+}
+  
 /* Font for the top navigation bar */
 body .navbar,
 body .navbar a,
