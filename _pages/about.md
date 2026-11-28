@@ -14,7 +14,7 @@ profile:
     <p>New York, NY</p>
 
 selected_papers: false
-social: false
+social: true
 
 announcements:
   enabled: false
@@ -28,6 +28,12 @@ latest_posts:
 ---
 
 <style>
+
+.contact-section {
+  display: flow-root;
+  width: 100%;
+  margin-top: 2rem;
+}
 
   /* Keep the name visible on the Home page */
 body .navbar-brand {
@@ -119,8 +125,10 @@ My interests include large language models, AI infrastructure, natural language 
 I am currently working on research projects involving language models and AI systems.
 </p>
 
-<hr class="contact-divider">
+<div class="contact-section">
+  <hr class="contact-divider">
 
-<h2>Contact</h2>
+  <h2>Contact</h2>
 
-<p>Email:</p>
+  <p>Email:</p>
+</div>
