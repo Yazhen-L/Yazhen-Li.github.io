@@ -7,6 +7,25 @@ importance: 3
 category: fun
 ---
 
+<style>
+body .post,
+body .post *,
+body .post-header,
+body .post-header *,
+body .post-title,
+body .navbar-brand,
+body .nav-link,
+body footer,
+body footer * {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+body .post {
+  font-size: 18px !important;
+}
+</style>
+
+
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
