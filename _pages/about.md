@@ -28,6 +28,15 @@ latest_posts:
 ---
 
 <style>
+
+  /* Keep the name visible on the Home page */
+body .navbar-brand {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  font-family: "Times New Roman", Times, serif !important;
+}
+  
 .post-header {
   display: none;
 }
