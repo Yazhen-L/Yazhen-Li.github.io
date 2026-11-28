@@ -30,3 +30,17 @@ li,
 .profile .more-info {
   font-size: 1rem !important;
 }
+
+
+/* Site-wide content link styling */
+main a:not(.btn):not(.badge) {
+  color: inherit !important;
+  text-decoration-line: underline !important;
+  text-decoration-color: currentColor !important;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+main a:not(.btn):not(.badge):hover {
+  color: inherit !important;
+}
