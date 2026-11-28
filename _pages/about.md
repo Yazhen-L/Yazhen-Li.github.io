@@ -8,10 +8,10 @@ profile:
   align: left
   image: prof_pic.jpg
   image_circular: false
-  more_info: >
-    <p>New York University</p>
-    <p>College of Arts and Science</p>
-    <p>New York, NY</p>
+  more_info: |
+    New York University<br>
+    College of Arts and Science<br>
+    New York, NY
 
 selected_papers: false
 social: true
