@@ -51,15 +51,15 @@ body .post li {
 
 ## Current Research
 
-### Ambiguity Clarification for Open-Domain Question Answering
+### [Temperature Measurement, Index Construction, and Electricity-Market Risk in ERCOT]
+  
+**Role:** Researcher 
+**Affiliation:** RiskEcon® Lab at NYU (ADVISOR_WEBSITE_LINK) 
+**Advisor:** Dr. David K. A. Mordecai(https://riskeconomicsinc.com/david-k-a-mordecai/), Dr. Gabriel Provencher Langlois(https://gabrielpl.com/), and Dr. Christoph Graf(https://policyintegrity.org/about/bio/christoph-graf) 
+**Status:** In progress
 
-I study how language models can identify and clarify ambiguity in open-domain questions.
 
-Many questions appear simple but leave important dimensions unspecified, such as time, location, target entity, or interpretation. My work focuses on identifying these missing dimensions and organizing different types of ambiguity into a structured taxonomy.
 
-**Role:** Research Assistant  
-**Topics:** Large language models, ambiguity clarification, open-domain question answering  
-**Status:** Ongoing
 
 ### [Research Project Title]
 
