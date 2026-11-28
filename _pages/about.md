@@ -79,7 +79,7 @@ body .navbar-brand {
 }
 
 .profile.float-left {
-  margin-right: 250px !important;
+  margin-right: 200px !important;
 }
 
 .profile .more-info {
@@ -107,7 +107,8 @@ body .post {
 }
 
 .home-name {
-  margin-top: 100px !important;
+  margin-top: 0 !important;
+  padding-top: 100px;
   font-family: "Times New Roman", Times, serif !important;
   font-size: 2rem;
 }
